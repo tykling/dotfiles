@@ -1,0 +1,2 @@
+alias got=git
+
