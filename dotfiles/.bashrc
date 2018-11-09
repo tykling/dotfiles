@@ -32,3 +32,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# ifconfig CIDR format for FreeBSD
+export IFCONFIG_FORMAT=inet:cidr,inet6:cidr
+
