@@ -1,0 +1,8 @@
+[alias]
+        lol = log --graph --pretty='format:%C(auto)%h %d %s %C(green)%an%C(bold blue) %ad' --date=relative
+        lola = log --graph --pretty='format:%C(auto)%h %d %s %C(green)%an%C(bold blue) %ad' --all --date=relative
+[color]
+        branch = auto
+        diff = auto
+        interactive = auto
+        status = auto
