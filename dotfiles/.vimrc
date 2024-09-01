@@ -15,6 +15,7 @@ set softtabstop=4                         " a tab = 4 spaces
 set history=1000                          " keep 1000 lines of history
 set list
 set listchars=tab:▷⋅,trail:⋅,nbsp:⋅,eol:$ " show blank characters
+set wildmode=list:longest                 " filename completion like bash
 
 set foldmethod=indent
 set foldnestmax=2
